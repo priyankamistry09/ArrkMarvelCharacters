@@ -11,9 +11,4 @@ target 'ArrkMarvelCharacters' do
   pod 'AlamofireImage', '~> 3.3'
   pod 'PKHUD', '~> 5.0'
 
-  target 'ArrkMarvelCharactersTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
 end
